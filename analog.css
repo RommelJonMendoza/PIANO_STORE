@@ -1,0 +1,90 @@
+@font-face {
+		font-family: myFont;
+		src:url(Prestige.otf)
+}
+
+@font-face {
+		font-family: myFont2;
+		src:url(brand.ttf)
+}
+
+body {
+		width: 95%;
+		margin: 0 auto;
+		background-image: url(bg.jpg);
+		background-size: cover;
+		background-position: center ;
+}
+.wrapper {
+		background: rgba(0, 0, 0, 0.1);
+		border-radius: 20px;
+}
+.header {
+		height: 7em;
+		margin: 1em 0 0 0;
+		padding: 1em;
+		overflow: auto;
+}
+.logo {
+		float: left;
+		height: 5em;
+		margin-top: .8em;
+		margin-left: 1em;
+}
+.header p{
+		font-family: myFont;
+		font-size: 3.6em;
+		color: black;
+		margin-top: .5em;
+		float: left;
+		margin-right: 1em;
+}
+.header a{
+		float: right;
+		font-family: myFont2;
+		font-size: 1.5em;
+		margin-right: 1em;
+		color: black;
+		text-decoration: none;
+		margin-top: 1.8em;
+	}
+.header a:active{
+		
+		color: #7F7E7E;
+}
+a.active{
+		color:#C6A700;
+}
+.header a:hover {
+ 		text-decoration: underline;
+}
+.content {
+		height: 34em ;
+		margin-bottom: .8em;
+		overflow: auto;
+}
+.content h1{
+		font-size: 5em;
+		font-family: myFont2;
+		max-width: 50%;
+		margin-top: 2%;
+		margin-left: 9%;
+		margin-bottom: 0;
+		margin-right: 5%;
+}
+.content p{
+		font-size: 2em;
+		font-family: Times New Roman;
+		max-width: 40%;
+		margin-left: 9%;
+		margin-top: 0;
+		margin-right: 5%;
+}
+.content img {
+		height: 440px ;
+		width: 400px ;
+		display: block;
+		float: right;
+		margin-right: 6%;
+		margin-top: 2%;
+}
